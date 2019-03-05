@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Verify I am on the facebook sigin page�",
+        "description": "",
+        "id": "login-for-all-scenarios;verify-i-am-on-the-facebook-sigin-page�",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4362546728,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# Given I am on the login page"
+              }
+            ],
+            "line": 12,
+            "name": "I open browser",
+            "match": {
+              "location": "LoginStep.i_open_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1707560095,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the url",
+            "match": {
+              "location": "LoginStep.i_enter_the_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 431278656,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter first name",
+            "match": {
+              "location": "LoginStep.i_enter_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60560490,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter last name",
+            "match": {
+              "location": "LoginStep.i_enter_last_name()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@today"
+          },
+          {
+            "line": 4,
+            "name": "@rbs"
+          },
+          {
+            "line": 5,
+            "name": "@searchLayout"
+          },
+          {
+            "line": 6,
+            "name": "@search"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          },
+          {
+            "line": 8,
+            "name": "@smokeee"
+          },
+          {
+            "line": 9,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "LOGIN FOR ALL SCENARIOS",
+    "description": "",
+    "id": "login-for-all-scenarios",
+    "keyword": "Feature",
+    "uri": "D:/SampleFB/src/test/resources/feature/login.feature"
+  }
+]
