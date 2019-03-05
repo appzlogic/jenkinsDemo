@@ -74,28 +74,28 @@ formatter.match({
   "location": "LoginStep.i_open_browser()"
 });
 formatter.result({
-  "duration": 4362546728,
+  "duration": 3899778580,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_enter_the_url()"
 });
 formatter.result({
-  "duration": 1707560095,
+  "duration": 2732265232,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_enter_first_name()"
 });
 formatter.result({
-  "duration": 431278656,
+  "duration": 81936309,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.i_enter_last_name()"
 });
 formatter.result({
-  "duration": 60560490,
+  "duration": 64066841,
   "status": "passed"
 });
 });
